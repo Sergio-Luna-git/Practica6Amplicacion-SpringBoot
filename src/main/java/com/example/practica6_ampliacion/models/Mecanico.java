@@ -29,6 +29,7 @@ public class Mecanico {
     private  String apellidos;
 
     @Column
+    @Enumerated(EnumType.STRING)
     private Especialidad especialidad;
 
     @Column

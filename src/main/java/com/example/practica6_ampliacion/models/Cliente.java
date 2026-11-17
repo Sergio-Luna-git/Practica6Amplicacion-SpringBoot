@@ -27,9 +27,8 @@ public class Cliente {
 
     @Column(unique = true, length = 9)
     private String dni;
-
     @Column
-    private String numero;
+    private String telefono;
 
     @Column(unique = true)
     private String email;

@@ -36,6 +36,6 @@ public class Pieza {
     private int stock;
 
     @Column
-    private boolean activo;
+    private boolean disponible;
 
 }

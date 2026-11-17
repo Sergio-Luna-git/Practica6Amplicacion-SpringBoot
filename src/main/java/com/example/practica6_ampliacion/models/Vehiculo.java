@@ -29,9 +29,12 @@ public class Vehiculo {
     private String modelo;
 
     @Column
-    private int anioFabriacion;
+    private int anioFabricacion;
 
     @Column( nullable = false)
     private int kilometraje;
 
+    @Column
+    @Transient
+    private Cliente cliente;
 }

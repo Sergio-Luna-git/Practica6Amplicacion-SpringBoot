@@ -29,7 +29,10 @@ public class Proveedor {
     @Column
     private String  telefono;
 
-    
+    @Column(nullable = true)
+    private String email;
 
+    @Column
+    private boolean activo;
 
 }
